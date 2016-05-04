@@ -1,4 +1,4 @@
 # UnityGame
 Make a game you nubs!
 
-This IS A COPY
+Uploaded the files. Have an extra scripts folder for easier navigation to our scripts.
