@@ -8,7 +8,7 @@ GMAIL ACCOUNT:
 Email: unityanxientygame@gmail.com
 Pass: UCIISGREAT
 
-UNTIY ACCOUNT:
+UNITY ACCOUNT:
 
 Email: untiyanxietygame@gmail.com
 Pass: UCIisgreat19
