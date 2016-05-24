@@ -13,7 +13,8 @@ public class UIManager : MonoBehaviour {
 	void Start ()
     {
         isPaused = false;
-	}
+        Cursor.lockState = CursorLockMode.Confined; //Not working right now
+    }
 	
 	void Update ()
     {
@@ -39,6 +40,16 @@ public class UIManager : MonoBehaviour {
         pausePanel.SetActive(state);
         FPSController.GetComponent<FirstPersonController>().enabled = !state;
         Cursor.visible = state;
+        if (state)
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        
     }
 
     public void SwitchPause()

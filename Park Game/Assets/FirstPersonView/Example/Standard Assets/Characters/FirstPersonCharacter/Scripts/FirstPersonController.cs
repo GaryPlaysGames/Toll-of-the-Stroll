@@ -41,6 +41,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        public LightControl script;
 
         // Use this for initialization
         private void Start()
@@ -253,5 +254,34 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
+
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Pickup"))
+            {
+                other.gameObject.SetActive(false);
+            }
+
+        }
+
+        void OnTriggerStay(Collider other)
+        {
+
+            if (other.gameObject.CompareTag("Person"))
+            {
+                script.changingLight = true;
+                script.LowerLight();
+            }
+
+        }
+
+        void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.CompareTag("Person"))
+            {
+                script.changingLight = false;
+            }
+        }
+        
     }
 }
