@@ -1,0 +1,192 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_3
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+Assets/FirstPersonView/Example/Scripts/FPV_Example_Player.cs
+Assets/FirstPersonView/Example/Scripts/FPV_Example_Weapon.cs
+Assets/FirstPersonView/Example/Scripts/Test.cs
+"Assets/FirstPersonView/Example/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/RollerBall/Scripts/Ball.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/FirstPersonView/Example/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/ActivateTrigger.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/AutoMobileShaderSwitch.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/AutoMoveAndRotate.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/CameraRefocus.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/CurveControlledBob.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/DragRigidbody.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/DynamicShadowSettings.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/EventSystemChecker.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/FOVKick.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/FPSCounter.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/FollowTarget.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/ForcedReset.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/LerpControlledBob.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/ObjectResetter.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/ParticleSystemDestroyer.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/PlatformSpecificContent.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/SimpleActivatorMenu.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/SimpleMouseRotator.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/SmoothFollow.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/TimedObjectActivator.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/TimedObjectDestructor.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/WaypointCircuit.cs"
+"Assets/FirstPersonView/Example/Standard Assets/Utility/WaypointProgressTracker.cs"
+Assets/FirstPersonView/Scripts/Camera/Base/FPV_Camera.cs
+Assets/FirstPersonView/Scripts/Camera/Base/IFPV_Camera.cs
+Assets/FirstPersonView/Scripts/Camera/FPV_FinalCamera.cs
+Assets/FirstPersonView/Scripts/Camera/FPV_FirstPersonCamera.cs
+Assets/FirstPersonView/Scripts/Camera/FPV_WorldCamera.cs
+Assets/FirstPersonView/Scripts/Objects/Base/IFPV_Object.cs
+Assets/FirstPersonView/Scripts/Objects/FPV_Object.cs
+Assets/FirstPersonView/Scripts/Objects/FPV_Object_Custom.cs
+Assets/FirstPersonView/Scripts/Objects/FPV_Object_DisableOnly.cs
+Assets/FirstPersonView/Scripts/Renderer/Base/FPV_Renderer_Base.cs
+Assets/FirstPersonView/Scripts/Renderer/Base/IFPV_Renderer.cs
+Assets/FirstPersonView/Scripts/Renderer/FPV_Renderer.cs
+Assets/FirstPersonView/Scripts/Renderer/FPV_Renderer_Custom.cs
+Assets/FirstPersonView/Scripts/Renderer/FPV_Renderer_DisableOnly.cs
+Assets/FirstPersonView/Scripts/_Static/FPV.cs
+"Assets/Party Pack/Scripts/CandleLight.cs"
+"Assets/Party Pack/Scripts/CycleCookiesTimer.cs"
+"Assets/Party Pack/Scripts/Rotate.cs"
+"Assets/Party Pack/Scripts/TriggerParticlesTimer.cs"
+"Assets/Party Pack/Scripts/TriggerParticlesTouch.cs"
+"Assets/Party Pack/Scripts/TriggerSoundTouch.cs"
+Assets/Scripts/LightControl.cs
+Assets/Scripts/LoadOnClick.cs
+Assets/Scripts/UIManager.cs
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"D:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
