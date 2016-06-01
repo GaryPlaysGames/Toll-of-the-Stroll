@@ -114,6 +114,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Park Game.CSharp.Plugins.csproj">
+      <Project>{84D27047-1CA1-FD70-2B49-177C0211972A}</Project>
+      <Name>Park Game.CSharp.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="Park Game.CSharp.csproj">
       <Project>{39DD786D-4B5E-755C-5B5B-4FA0945DE5DE}</Project>
       <Name>Park Game.CSharp</Name>
@@ -224,6 +228,11 @@
     <None Include="Assets\Party Pack\Sounds\Sounds License.txt" />
     <None Include="Assets\Prefabs\README.txt" />
     <None Include="Assets\Sound\README.txt" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
