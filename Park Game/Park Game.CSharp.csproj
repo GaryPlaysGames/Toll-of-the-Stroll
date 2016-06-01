@@ -69,6 +69,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Park Game.CSharp.Plugins.csproj">
+      <Project>{84D27047-1CA1-FD70-2B49-177C0211972A}</Project>
+      <Name>Park Game.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\FirstPersonView\Example\Scripts\FPV_Example_Player.cs" />
     <Compile Include="Assets\FirstPersonView\Example\Scripts\FPV_Example_Weapon.cs" />
     <Compile Include="Assets\FirstPersonView\Example\Scripts\Test.cs" />
@@ -137,6 +143,7 @@
     <Compile Include="Assets\FirstPersonView\Example\Standard Assets\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\FirstPersonView\Example\Standard Assets\Utility\DragRigidbody.cs" />
     <Compile Include="Assets\FirstPersonView\Example\Standard Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\FirstPersonView\Example\Standard Assets\Utility\EventSystemChecker.cs" />
     <Compile Include="Assets\FirstPersonView\Example\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\FirstPersonView\Example\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\FirstPersonView\Example\Standard Assets\Utility\FollowTarget.cs" />
@@ -264,6 +271,11 @@
     <None Include="Assets\Party Pack\Sounds\Sounds License.txt" />
     <None Include="Assets\Prefabs\README.txt" />
     <None Include="Assets\Sound\README.txt" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
