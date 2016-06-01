@@ -11,6 +11,8 @@ public class LightControl : MonoBehaviour
     Camera myCam;
     Light lightComp;
     float minView = 60, minLight = 4.27f;
+    public float growSpeed = .005f;
+    float changeSpeed = .007f;
 
     void Start()
     {
@@ -26,10 +28,10 @@ public class LightControl : MonoBehaviour
         {
 
             if (lightComp.intensity < minLight) //Change the light intensity slowly back to the minLight specified
-                lightComp.intensity += .005f;
+                lightComp.intensity += growSpeed;
 
             if (myCam.fieldOfView > minView)
-                myCam.fieldOfView -= 0.05f; //Change the field of view slowly back to the minView specified
+                myCam.fieldOfView -= growSpeed; //Change the field of view slowly back to the minView specified
         }
 
     }
@@ -38,8 +40,8 @@ public class LightControl : MonoBehaviour
     {
         if (!Script.isPaused) //TODO: Set variables for change speeds (useful for flower changes later)
         {
-            lightComp.intensity -= .007f;
-            myCam.fieldOfView += 0.05f;
+            lightComp.intensity -= changeSpeed;
+            myCam.fieldOfView += changeSpeed;
         }
     }
 }

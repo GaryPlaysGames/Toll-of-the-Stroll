@@ -6,6 +6,7 @@ using System.Collections;
 public class UIManager : MonoBehaviour {
 
     public GameObject pausePanel;
+    public Slider volumeControl;
     public GameObject FPSController;
 
     public bool isPaused;
@@ -37,9 +38,13 @@ public class UIManager : MonoBehaviour {
         {
             Time.timeScale = 1.0f; //Unpaused
         }
+
         pausePanel.SetActive(state);
         FPSController.GetComponent<FirstPersonController>().enabled = !state;
         Cursor.visible = state;
+
+        AudioListener.volume = volumeControl.value;
+
         if (state)
         {
             Cursor.lockState = CursorLockMode.None;

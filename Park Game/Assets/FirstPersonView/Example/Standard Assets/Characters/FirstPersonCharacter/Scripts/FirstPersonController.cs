@@ -260,6 +260,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (other.gameObject.CompareTag("Pickup"))
             {
                 other.gameObject.SetActive(false);
+                script.growSpeed *= 1.5f;
             }
 
         }
