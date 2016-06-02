@@ -1,7 +1,7 @@
 # UnityGame
-Make a game you nubs!
+We made a game nubs!
 
-Uploaded the files. Have an extra scripts folder for easier navigation to our scripts.
+Better get an A or i'm hunting you guys down...
 
 GMAIL ACCOUNT: 
 
@@ -13,4 +13,4 @@ UNITY ACCOUNT:
 Email: untiyanxietygame@gmail.com
 Pass: UCIisgreat19
 
-Commit a working game here only
+Working game here. Mostly.
