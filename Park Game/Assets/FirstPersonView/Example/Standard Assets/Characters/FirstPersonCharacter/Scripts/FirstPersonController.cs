@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
@@ -42,6 +44,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
         public LightControl script;
+        public GameObject popupPanel;
+        public int flowersNeeded = 9;
 
         // Use this for initialization
         private void Start()
@@ -261,6 +265,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 other.gameObject.SetActive(false);
                 script.growSpeed *= 1.5f;
+
+                flowersNeeded -= 1;
+                StartCoroutine(ShowPrompt());
             }
 
         }
@@ -283,6 +290,34 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 script.changingLight = false;
             }
         }
-        
+
+        IEnumerator ShowPrompt()
+        {
+            yield return new WaitForSeconds(2);
+            popupPanel.SetActive(true);
+
+            Text pickupText = GameObject.Find("PickupText").GetComponent<Text>();
+
+            if (flowersNeeded > 1)
+            {
+                pickupText.text = "I need " + flowersNeeded.ToString() + " more flowers...";
+            }
+
+            else if (flowersNeeded == 1)
+            {
+                pickupText.text = "I need " + flowersNeeded.ToString() + " more flower...";
+            }
+
+            else
+            {
+                pickupText.text = "That should be enough...";
+            }
+
+            yield return new WaitForSeconds(2);
+            popupPanel.GetComponent<Image>().CrossFadeAlpha(0.1f, 2.0f, false);
+            yield return new WaitForSeconds(2);
+            popupPanel.SetActive(false);
+        }
+
     }
 }
